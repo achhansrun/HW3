@@ -19,12 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Users\akera\Downloads\da3.hpp" />
-    <ClInclude Include="..\..\..\..\Users\akera\Downloads\llnode.hpp" />
+    <ClInclude Include="da3.hpp" />
+    <ClInclude Include="doctest.h" />
+    <ClInclude Include="llnode.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Users\akera\Downloads\da3.cpp" />
-    <ClCompile Include="..\..\..\..\Users\akera\Downloads\da3_test.cpp" />
+    <ClCompile Include="da3.cpp" />
+    <ClCompile Include="da3_test.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -112,6 +113,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\SchoolCoding\cs311\Homework3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

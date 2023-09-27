@@ -15,18 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Users\akera\Downloads\da3.hpp">
+    <ClInclude Include="doctest.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Users\akera\Downloads\llnode.hpp">
+    <ClInclude Include="da3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="llnode.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Users\akera\Downloads\da3.cpp">
+    <ClCompile Include="da3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Users\akera\Downloads\da3_test.cpp">
+    <ClCompile Include="da3_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
