@@ -15,30 +15,46 @@
 
 template <typename ValueType>
 ValueType lookup(const LLNode<ValueType> * head,
-                 std::size_t index)
+				 std::size_t index)
 {
-    return ValueType();  // DUMMY
-    // TODO: WRITE THIS!!!
+	for(int i = 0; i < index; i++)
+	{
+		try
+		{
+		if(head != nullptr)
+		{
+		head = head->_next;
+		}
+		else
+		{
+			return 0;
+		}
+		} catch(std::out_of_range)
+		{
+			
+		}
+	} 
+	return head->_data;
 }
 
 
 // Implementation in source file
 void didItThrow(const std::function<void()> & ff,
-                bool & threw);
+				bool & threw);
 
 
 template <typename FDIter>
 bool checkSorted(FDIter first,
-                 FDIter last)
+				 FDIter last)
 {
-    return false;  // DUMMY
-    // TODO: WRITE THIS!!!
+	return false;  // DUMMY
+	// TODO: WRITE THIS!!!
 }
 
 
 // Implementation in source file
 int gcd(int a,
-        int b);
+		int b);
 
 
 #endif  //#ifndef FILE_DA3_HPP_INCLUDED
